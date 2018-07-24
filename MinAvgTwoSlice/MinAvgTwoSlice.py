@@ -22,7 +22,7 @@ def solution(A):
 
 	#solution用來與計算出來的平均值比較 answer則是將元素項次記錄
 	N=len(A)
-	solution = 10001
+	solution = 1e4+1
 	answer=0
 	
 	#第一個迴圈跑A[0]-A[N-2], 第二個迴圈則是從A[START+1]-A[N-1]
