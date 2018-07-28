@@ -18,7 +18,7 @@ def solution(A):
                 counter-=1
     #先找串列中Leader數量 確認leader是否超過N一半以上
     #O(N)
-    lnum=len([num for num in A if num== candicate])
+    lnum=A.count(candicate)
     if lnum <= len(A)//2:
         return 0
     #將list A 含括leader分為兩部分 初始值為 [NULL] [ALL]
