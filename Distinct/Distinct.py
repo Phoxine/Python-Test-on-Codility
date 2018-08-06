@@ -26,3 +26,5 @@ def solution(A):
 	return counter
 	
 	pass
+
+	##hello world
