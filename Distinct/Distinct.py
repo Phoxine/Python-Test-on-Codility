@@ -5,10 +5,11 @@ N is an integer within the range [0..100,000];
 each element of array A is an integer within the range [−1,000,000..1,000,000].
 '''
 def solution(A):
-	N=len(A)
+	N=len(A
 	#若為串列為空 回傳0
-	if N==0:
+	if N==0;
 		return 0
+	
 	#串列排列 亦可用 sorted(A)
 	A.sort()
 	
